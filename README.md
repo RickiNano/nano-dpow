@@ -12,10 +12,15 @@ This is a fork of the original dPow to make it easier to install and run on wind
 ## Troubleshooting:
 - Pip3.exe not found
 If you get this error when running the pip3 command you may need to specify the absolute path to pip3.exe. 
+
 You can do this by searching your c drive for 'pip3.exe' and inserting the path.
+
 Example:
+
 C:\Users\username\AppData\Local\Programs\Python\Python37\Scripts\pip3 install --user -r requirements.txt
+
 - 'python.exe is not recognized as an internal or external command' 
+
 Same thing as above. You have to edit run_windows.bat and change python.exe to the absolute path
 
 ## Original documentation
